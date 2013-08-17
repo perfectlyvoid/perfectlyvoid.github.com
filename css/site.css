@@ -78,9 +78,16 @@ a:hover {
 .actions .button {
     margin: 1em
 }
+.product section > * {
+    margin-bottom: 2em !important;
+}
+
 [data-clearing] li {
     margin: 0
 }
-.product section > * {
-    margin-bottom: 2em !important;
+.clearing-assembled .clearing-container .visible-img {
+    background: none;
+}
+.clearing-blackout {
+    background: rgba(17, 17, 17, .9);
 }
