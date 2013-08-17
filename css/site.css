@@ -16,9 +16,6 @@ body {
     line-height: 1.2rem;
     background: url('../img/twirl.png') no-repeat 15% -425px; /*50% -380px;*/
 }
-header > a {
-    padding: 0 !important
-}
 header img {
     max-width: 100%;
     margin: 1em 0;
@@ -72,11 +69,11 @@ a:hover {
 .faq .answer {
     font-style: italic;
     color: #666;
-    margin-bottom: .6em;
+    margin-bottom: 1em;
     line-height: 1.1rem;
 }
 .actions .button {
-    margin: 1em
+    margin: 0 1em;
 }
 .product section > * {
     margin-bottom: 2em !important;
