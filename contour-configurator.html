@@ -27,50 +27,54 @@
     </script>
 </head>
 <body class="product">
-    <!--img id="loader" alt="loading" src="img/loading.gif" /-->
     <header class="row">
-      <a href="/" class="small-4 large-4 columns"><img id="pv" alt="perfectly void" src="img/pv_name.png" /></a>
+      <a class="small-4 large-4 columns" href="/"><img id="pv" alt="perfectly void" src="img/pv_name.png" /></a>
+      <a class="small-8 large-8 columns badge" href="https://play.google.com/store/apps/details?id=contour configurator">
+        <img alt="Get it on Google Play"
+             src="https://developer.android.com/images/brand/en_generic_rgb_wo_60.png" />
+      </a>
     </header>
     <section class="row">
       <div class="promo row">
         <div class="deck">
-          <a href="contour-configurator.html"><img src="media/cc/feature_graphic.jpg" alt="Contour configurator" /></a>
+          <span class="frame highlight"><img src="media/cc/feature_graphic.jpg" alt="Contour configurator" /></span>
         </div>
-        <p>Lorem ipsum dolor sit amet...</p>
+        <p>
+          Contour configurator let's you change the settings of your contour camera and synchronizes it's internal clock, without the necessity to plug it into a computer.<br />
+          <br />
+          It's targeted for ROAM2 cameras. Usage with other models is possible, though may be limited.<br />
+        </p>
       </div>
       <ul class="row small-block-grid-6 clearing-thumbs" data-clearing>
-        <li><a href="media/cc/Screenshot_1.jpg"><img src="media/cc/Screenshot_1.jpg" alt="Contour configurator" /></a></li>
-        <li><a href="media/cc/Screenshot_2.jpg"><img src="media/cc/Screenshot_2.jpg" alt="Contour configurator" /></a></li>
-        <li><a href="media/cc/Screenshot_3.jpg"><img src="media/cc/Screenshot_3.jpg" alt="Contour configurator" /></a></li>
-        <li><a href="media/cc/Screenshot_4.jpg"><img src="media/cc/Screenshot_4.jpg" alt="Contour configurator" /></a></li>
-        <li><a href="media/cc/Screenshot_5.jpg"><img src="media/cc/Screenshot_5.jpg" alt="Contour configurator" /></a></li>
-        <li><a href="media/cc/Screenshot_6.jpg"><img src="media/cc/Screenshot_6.jpg" alt="Contour configurator" /></a></li>
+        <li><a href="media/cc/Screenshot_1.jpg"><img src="media/cc/Screenshot_1_thumb.jpg" alt="Contour configurator" /></a></li>
+        <li><a href="media/cc/Screenshot_2.jpg"><img src="media/cc/Screenshot_2_thumb.jpg" alt="Contour configurator" /></a></li>
+        <li><a href="media/cc/Screenshot_3.jpg"><img src="media/cc/Screenshot_3_thumb.jpg" alt="Contour configurator" /></a></li>
+        <li><a href="media/cc/Screenshot_4.jpg"><img src="media/cc/Screenshot_4_thumb.jpg" alt="Contour configurator" /></a></li>
+        <li><a href="media/cc/Screenshot_5.jpg"><img src="media/cc/Screenshot_5_thumb.jpg" alt="Contour configurator" /></a></li>
+        <li><a href="media/cc/Screenshot_6.jpg"><img src="media/cc/Screenshot_6_thumb.jpg" alt="Contour configurator" /></a></li>
       </ul>
 
       <div class="row faq">
         <h2>FAQ</h2>
 
-        <span class="question">Lorem ipsum?</span>
-        <p class="answer">Dolor sit amet</p>
+        <span class="question">After pressing the "push" button and unplugging the device the configuration isn't saved. Why is that?</span>
+        <p class="answer">File writes are not persisted to storage immediately on android. We are working on a solution to ensure that the configuration is written properly, but until we find that, please wait 5-10 seconds before disconnecting the camera from your device.<br/>In case of using just the sd card - make sure you unmount it before removing from your device.</p>
 
-        <span class="question">Lorem ipsum?</span>
-        <p class="answer">Dolor sit amet</p>
-
-        <span class="question">Lorem ipsum?</span>
-        <p class="answer">Dolor sit amet</p>
+        <span class="question">I get a message saying "The detected configuration version is unrecognized. This may cause configuration corruption." Should I be worried?</span>
+        <p class="answer">This warning is displayed when the camera configuration version is unknown to the application. The configuration update tries to be as noninvasive as possible, but in some situations, writing configuration in an unrecognized version may lead to it's corruption.<br />
+        To restore a valid configuration, connect the camera to your computer and use the software provided by contour or, backup the data on your cameras' sd card and format it.</p>
       </div>
 
       <p class="row actions">
-        <a href="mailto:contact@perfectlyvoid.com?subject=[feedback web Contour configurator]" class="button">Send feedback</a>
+        <a href="mailto:contact@perfectlyvoid.com?subject=[feedback web Contour configurator]" class="button">Send feedback</a> or
+        <a href="mailto:contact@perfectlyvoid.com?subject=[BUG Contour configurator]" class="button">Report an issue</a>
       </p>
     </section>
     <footer class="row">
-      <a href="mailto:contact@perfectlyvoid.com">contact@perfectlyvoid.com</a>
     </footer>
 
     <script src="js/zepto.min.js"></script>
     <script src="js/foundation.js"></script>
-    <script src="js/foundation.interchange.js"></script>
     <script src="js/foundation.clearing.js"></script>
     <script src="js/site.js"></script>
 </body>
