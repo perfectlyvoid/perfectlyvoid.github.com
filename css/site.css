@@ -1,0 +1,35 @@
+::selection { background: #5a376f; color: #ccc; }
+::-moz-selection { background: #5a376f; color: #ccc; }
+
+html { color: #ccc; background:#000 url('../img/bg.png') repeat 0 0; }
+body { font-family: 'Muli', sans-serif; background: transparent; }
+footer { text-align: right; padding-bottom: 1em; }
+h1, h2, h3 { color: #ddd; font-weight: bold; }
+a { color: #5a376f; text-decoration: none; }
+a:hover { color: #a8d164; }
+
+#loader { position:absolute; top:50%; left:50%; margin:-12px 0 0 -12px; z-index:1; }
+#pv { max-width: 100%; margin: 1em 0; }
+
+.promo .deck a {
+	display: block;
+	background: #333;
+	background: rgba(255, 255, 255, .2);
+	padding: 1em;
+	border-radius: 1em;
+}
+.promo .deck a:hover {
+	background: #444;
+	background: rgba(255, 255, 255, .3);
+}
+.promo p { margin: 2em 1em; }
+.faq { padding: 0 1em; }
+.faq h2 { font-size: 1.1em; margin-bottom: 1em; }
+.faq > * { display: block; }
+.faq .question { font-variant: small-caps; margin-bottom: .3em; }
+.faq .answer { font-style: italic; color: #666; margin-bottom: .6em; }
+.actions .button { margin: 1em; }
+
+[data-clearing] li {
+	margin: 0;
+}
