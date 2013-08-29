@@ -24,6 +24,9 @@ footer {
     text-align: right;
     padding-bottom: 1em;
 }
+section > * {
+    margin-bottom: 2em !important;
+}
 h1, h2, h3 {
     color: #a8d164;
     font-weight: bold;
@@ -74,9 +77,6 @@ a:hover {
 }
 .actions .button {
     margin: 0 1em;
-}
-.product section > * {
-    margin-bottom: 2em !important;
 }
 
 [data-clearing] li {
