@@ -77,7 +77,10 @@
     
       <span class="question">I get a message saying "The detected configuration version is unrecognized. This may cause configuration corruption." Should I be worried?</span>
       <p class="answer">This warning is displayed when the camera configuration version is unknown to the application. The configuration update tries to be as noninvasive as possible, but in some situations, writing configuration in an unrecognized version may lead to it's corruption.<br />To restore a valid configuration, connect the camera to your computer and use the software provided by contour or, backup the data on your cameras' sd card and format it.</p>
-    
+
+      <span class="question">I get a message saying "Media storage is not writeable. It's most likely  mounted read-only". What should I do?</span>
+      <p class="answer">This state can occur when you've connected your device to a computer or another device that reads acts as a host and you're device has the media storage turned on. You need to turn it off (usually displayed as an option in the notification area) in order for the app to be able to write the configuration file</p>    
+
   </div>
 </section>
     
